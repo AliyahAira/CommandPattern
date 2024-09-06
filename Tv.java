@@ -1,12 +1,9 @@
-
-
 public class Tv {
-
     public String switchOn() {
-        return "Tv is switched-on!";
+        return "TV is switched on!";
     }
 
     public String switchOff(){
-        return "Tv is switched-off";
+        return "TV is switched off";
     }
 }

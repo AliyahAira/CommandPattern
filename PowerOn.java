@@ -1,7 +1,4 @@
-
-
 public class PowerOn implements Command {
-
     private Tv tv;
     public PowerOn(Tv tv){
         this.tv = tv;
@@ -10,5 +7,4 @@ public class PowerOn implements Command {
     public String execute() {
         return tv.switchOn();
     }
-
 }
